@@ -29,7 +29,7 @@
  .cuadro1 {
      color: white;
      width: 100%;
-     padding: 6px;
+     padding: 2px;
      margin-top: 5px;
      background-color: #5b7989;
      border-radius: 10px 10px 0px 0px;
@@ -37,8 +37,8 @@
      -webkit-border-radius: 10px 10px 0px 0px;
  }
 
-
- a{
+ a {
+   font-size: 16px;
    color: white;
    padding: 6px;
    text-shadow: 2px 2px #02010a;
@@ -101,32 +101,6 @@
   padding: 1px;
 }
 
-#columna4 p{
-color: black;
-text-shadow: none;
-}
-#columna5 p{
-color: black;
-text-shadow: none;
-}
-#columna6 p{
-color: black;
-text-shadow: none;
-}
-#columna7 p{
-color: black;
-text-shadow: none;
-}
-
-#columna2 img:hover{
-  transform: rotateZ(10deg);
-  box-shadow: 2px 2px #02010a;
-}
-
-#columna3 img:hover{
-  transform: translate(20px,-5px);
-}
-
   .wrapper img {
   display: block;
   box-shadow: 2px 2px #02010a;
@@ -135,44 +109,54 @@ text-shadow: none;
   height: 22em;
   }
 
-  #columna1
-	{
-	background-color: #82c3a6;
-	width: 100%;
-  padding: 0 0 2%;
-	}
-	#columna2
-	{
-	background-color: #d5c75f;
-	width: 50%;
-  padding: 2%;
-	}
-	#columna3
-	{
-	background-color: #d5c75f;
-	width: 50%;
-  padding: 2%;
-	}
   #columna4{
-    background-color: #C6d5c5;
+    background-color: #d5c75f;
     width: 25%;
     padding: 2%;
-    margin-bottom: 5px;
+
   }
   #columna5{
-    background-color: #C6d5c5;
+    background-color: #d5c75f;
     width: 25%;
     padding: 2%;
-    margin-bottom: 5px;
+
   }
   #columna6{
-    background-color: #C6d5c5;
+    background-color: #d5c75f;
+    width: 25%;
+    padding: 2%;
+
+  }
+  #columna7{
+    background-color:#d5c75f;
+    width: 25%;
+    padding: 2%;
+
+  }
+
+  #columna8{
+    background-color:#C6d5c5;
     width: 25%;
     padding: 2%;
     margin-bottom: 5px;
   }
-  #columna7{
-    background-color: #C6d5c5;
+
+  #columna9{
+    background-color:#C6d5c5;
+    width: 25%;
+    padding: 2%;
+    margin-bottom: 5px;
+  }
+
+  #columna10{
+    background-color:#C6d5c5;
+    width: 25%;
+    padding: 2%;
+    margin-bottom: 5px;
+  }
+
+  #columna11{
+    background-color:#C6d5c5;
     width: 25%;
     padding: 2%;
     margin-bottom: 5px;
@@ -250,6 +234,28 @@ text-shadow: none;
     margin-bottom: 0;
   	}
     #columna7
+  	{
+  	width: 100%;
+    padding: 4% 10% 0;
+  	}
+    #columna8
+  	{
+  	width: 100%;
+    margin-bottom: 0;
+  	}
+    #columna9
+  	{
+  	width: 100%;
+    padding: 4% 10% 0;
+    margin-bottom: 0;
+  	}
+    #columna10
+  	{
+  	width: 100%;
+    padding: 4% 10% 0;
+    margin-bottom: 0;
+  	}
+    #columna11
   	{
   	width: 100%;
     padding: 4% 10% 0;
