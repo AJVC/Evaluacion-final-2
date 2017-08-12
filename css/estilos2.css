@@ -102,6 +102,16 @@
   margin: 0 auto;
 }
 
+.img1{
+  filter: blur(10px);
+}
+.img3{
+  filter: sepia(90%);
+}
+.img2, .img4, .img6{
+  filter: grayscale(100%);
+}
+
   .wrapper img {
   display: block;
   box-shadow: 2px 2px #02010a;
@@ -278,6 +288,10 @@
     .a2{
       display: inline-block;
       display: -webkit-inline-block;
+    }
+
+    li{
+      float: left;
     }
 
   	header
